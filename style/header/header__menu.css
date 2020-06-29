@@ -1,0 +1,71 @@
+.header__menu {
+  grid-area: 2/2/3/38;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 25px 0 -15px rgba(255, 255, 255, .5);
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.header__menu-item {
+  font-family: 'MuseoSansCyrl-1';
+  font-size: 15px;
+  letter-spacing: .74px;
+  padding: 0 20px;
+}
+
+.header__menu-item.active,
+.header__menu-item:hover {
+  font-family: 'MuseoSansCyrl-3';
+  font-size: 16px;
+  letter-spacing: .2px;
+}
+
+.header__menu-item_home .active,
+.header__menu-item_home:hover {
+  padding: 0 18.6px;
+}
+
+.header__menu-item_shugaring-waxing .active,
+.header__menu-item_shugaring-waxing:hover {
+  padding: 0 15.8px;
+}
+
+.header__menu-item_anticellulite-massage .active,
+.header__menu-item_anticellulite-massage:hover {
+  padding: 0 15.4px;
+}
+
+.header__menu-item_classic-massage .active,
+.header__menu-item_classic-massage:hover {
+  padding: 0 16.8px;
+}
+
+.header__menu-item_training .active,
+.header__menu-item_training:hover {
+  padding: 0 18.9px;
+}
+
+.header__menu-item_cosmetics .active,
+.header__menu-item_cosmetics:hover {
+  padding: 0 16.4px;
+}
+
+.header__menu-item_articles .active,
+.header__menu-item_articles:hover,
+.header__menu-item_about-studio .active,
+.header__menu-item_about-studio:hover {
+  padding: 0 19px;
+}
+
+.header__menu-item_contacts .active,
+.header__menu-item_contacts:hover {
+  padding: 0 18px;
+}
+
+.header__menu-item.active:hover {
+  padding: 20px;
+}

@@ -1,0 +1,92 @@
+.header__additional {
+  grid-area: 3/18/4/24;
+  align-self: end;
+  position: relative;
+  margin: 0 0 102px 29px;
+}
+
+.header__additional_image-holder {
+  position: relative;
+}
+
+.header__additional_image {
+  position: relative;
+  z-index: 3;
+}
+
+.header__additional_image-shadow {
+  position: absolute;
+  bottom: -281px;
+  left: -173px;
+}
+
+.header__additional_information {
+  position: relative;
+}
+
+.header__additional_information-switch {
+  position: absolute;
+  bottom: 15px;
+  left: 154px;
+  background-image: linear-gradient(to bottom left, #f8b1b3 0%, #f39fa3 31%, #f1959a 61%,#f09096 100%);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border-right: 1px solid #d57379;
+  border-bottom: 1px solid #d57379;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 26px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 5;
+  animation: additional-information-switch-radial-pulse 1.5s infinite;
+}
+
+@keyframes additional-information-switch-radial-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(229, 192, 188, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 30px rgba(229, 192, 188, 0);
+  }
+}
+
+.header__additional_information-text {
+  visibility: hidden;
+  position: absolute;
+  bottom: 37px;
+  left: 174px;
+  background: #fffefd;
+  width: 175px;
+  height: 209px;
+  padding: 30px 27px 30px 27px;
+  box-sizing: border-box;
+  border-radius: 70% 70% 4% 0 / 10% 10% 5% 0%;
+  box-shadow: 7px -9px 0 3px rgba(255, 255, 255, .2);
+  font-family: 'MuseoSansCyrl-1';
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  line-height: 16px;
+  color: #282828;
+  text-align: center;
+  z-index: 4;
+}
+
+.header__additional_information-heart {
+  visibility: hidden;
+  position: absolute;
+  bottom: 106px;
+  left: 109px;
+  z-index: 4;
+}
+
+.header__additional_information:hover .header__additional_information-text,
+.header__additional_information:hover .header__additional_information-heart {
+  visibility: visible;
+}

@@ -1,14 +1,7 @@
-.header {
-  grid-area: 1/1/3/39;
-  position: relative;
-  /* display: flex;
-  flex-direction: column; */
-}
-
 .header__backgrounds {
   position: absolute;
   height: 1127px;
-  width: 100vw;
+  width: calc(100vw - 17px);
   transform: translate(-50%, -50%);
   top: 563px;
   left: 50%;

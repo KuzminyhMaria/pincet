@@ -1,0 +1,182 @@
+.header__about-us {
+  grid-area: 1/3/2/37;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 32px 0 14px;
+}
+
+.header__about-us_name {
+  display: flex;
+}
+
+.header__about-us_name-explanation {
+  margin-left: 43px;
+  font-family: 'MuseoSansCyrl-1';
+  font-size: 14px;
+  color: #282828;
+  width: 150px;
+  text-align: left;
+  letter-spacing: .7px;
+  padding-top: 35px;
+}
+
+.header__about-us_contact-us {
+  display: flex;
+  align-items: center;
+}
+
+.header__about-us_place {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px 64px 0 0;
+}
+
+.header__about-us_initial-map {
+  position: relative;
+}
+
+.header__about-us_initial-map-icon {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+.header__about-us_address {
+  margin: 14px 0 0 8px;
+}
+
+.header__about-us_address-item {
+  font-family: 'MuseoSansCyrl-1';
+  font-size: 16px;
+  letter-spacing: .8px;
+  margin-bottom: 14px;
+}
+
+.header__about-us_address-item-span {
+  font-family: 'MuseoSansCyrl-3';
+}
+
+.header__about-us_map-container {
+  position: relative;
+}
+
+.header__about-us_map-text {
+  font-family: 'MuseoSansCyrl-2';
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ff6078;
+  letter-spacing: 1.1px;
+  border-bottom: 2px dashed #ff6078;
+  cursor: pointer;
+}
+
+.header__about-us_map-container .header__about-us_map {
+  visibility: hidden;
+  position: absolute;
+  bottom: -320px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 200px;
+  transition: .2s ease-out;
+  transition-delay: .2s;
+}
+
+.header__about-us_map-container:hover .header__about-us_map {
+  visibility: visible;
+  z-index: 2;
+}
+
+.header__about-us_contacts {
+  margin-right: 60px;
+}
+
+.header__about-us_contacts-boxes {
+  display: flex;
+  align-items: center;
+}
+
+.header__about-us_contacts-boxes:first-of-type {
+  margin-bottom: 4px;
+}
+
+.header__about-us_icons-background {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+
+.header__about-us_icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__about-us_contacts-item {
+  margin-left: 10px;
+}
+
+.header__about-us_contacts-call-permission {
+  position: relative;
+  font-family: 'MuseoSansCyrl-2';
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding-left: 14px;
+  margin-bottom: 3px;
+}
+
+.header__about-us_contacts-call-permission-icon {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  height: 7px;
+  width: 7px;
+  background: #27b24b;
+  box-shadow: 0 0 4px 4px #e4e8d4;
+  border-radius: 50%;
+}
+
+.header__about-us_contacts-number {
+  font-family: 'MuseoSansCyrl-2';
+  font-size: 24px;
+  letter-spacing: .6px;
+}
+
+.header__about-us_contacts-days-time {
+  font-family: 'MuseoSansCyrl-1';
+  font-size: 16px;
+  letter-spacing: .8px;
+}
+
+.header__about-us_contacts-days-time-span {
+  font-family: 'MuseoSansCyrl-3';
+}
+
+.header__about-us_button-container {
+  position: relative;
+}
+
+.header__about-us_button {
+  height: 63px;
+  width: 230px;
+  border-radius: 30px;
+  background: #fefcfb;
+  border-bottom: 3px solid #eeecec;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: 'MuseoSansCyrl-2';
+  font-size: 15px;
+  letter-spacing: .8px;
+  padding-left: 33px;
+}
+
+.header__about-us_button-icon {
+  position: absolute;
+  top: 32%;
+  left: 27px;
+}

@@ -1,0 +1,12 @@
+@import "./header__about-us.css";
+@import "./header__menu.css";
+@import "./header__information.css";
+@import "./header__additional.css";
+@import "./header__arrow.css";
+@import "./header__backgrounds.css";
+
+.header {
+  grid-area: 1/1/3/39;
+  position: relative;
+}
+

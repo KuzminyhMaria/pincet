@@ -7,12 +7,150 @@
     <link rel="stylesheet" href="./style/index.css">
   </head>
   <body>
-    <div class="container gr-col-14">
-      <header class="header gr-col-14">
-        <div class="header__about-us"></div>
-        <div class="menu"></div>
+    <div class="container gr-col-14 gr-row-content">
+      <header class="header gr-col-14 gr-row">
+        <div class="header__about-us">
+          <div class="header__about-us_name">
+            <img class="header__about-us_name-logo" src="./images/header-logo.png" alt="">
+            <div class="header__about-us_name-explanation">
+              Студия депиляции и массажный кабинет в Бресте
+            </div>
+          </div>
+          
+          <div class="header__about-us_contact-us">
+            <div class="header__about-us_place">
+              <div class="header__about-us_initial-map">
+                <img class="header__about-us_initial-map-map" src="./images/header-about-us-map.png" alt="">
+                <img class="header__about-us_initial-map-icon" src="./images/header-about-us-map-icon.png" alt="">
+              </div>
+              <div class="header__about-us_address">
+                <div class="header__about-us_address-item">
+                  <span class="header__about-us_address-item-span">Мы находимся в центре:</span><br>
+                  г. Брест, ул. Гоголя, д.65
+                </div>
+                <div class="header__about-us_map-container">
+                  <span class="header__about-us_map-text">Смотреть на карте</span><br>
+                  <iframe class="header__about-us_map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab27ab13d7120e72c36670f47df5ddd7f190988c1558cc3832fe0de240227c0e0&amp;source=constructor" frameborder="0"></iframe>
+                </div>
+              </div>
+            </div>
+
+            <div class="header__about-us_contacts">
+              <div class="header__about-us_contacts-boxes">
+                <div class="header__about-us_icons-background">
+                  <img class="header__about-us_icons" src="./images/header-about-us-phone-icon.png" alt="">
+                </div>
+                <div class="header__about-us_contacts-item">
+                  <div class="header__about-us_contacts-call-permission">
+                    <div class="header__about-us_contacts-call-permission-icon"></div>Звоните, мы сейчас работаем
+                  </div>
+                  <p class="header__about-us_contacts-number">+375 33 382 24 99</p>
+                </div>
+              </div>
+
+              <div class="header__about-us_contacts-boxes">
+                <div class="header__about-us_icons-background">
+                  <img class="header__about-us_icons" src="./images/header-about-us-clock-icon.png" alt="">
+                </div>
+                <div class="header__about-us_contacts-item header__about-us_contacts-days-time">Пн-Вс 
+                  <span class="header__about-us_contacts-days-time-span">9:00-21:00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="header__about-us_button-container">
+              <button class="header__about-us_button" type="button">Записаться онлайн</button>
+              <img class="header__about-us_button-icon" src="./images/header-about-us-calendar-icon.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <ul class="header__menu">
+          <li class="header__menu-item header__menu-item_home active"><a href="./index.html">Главная</a></li>
+          <li class="header__menu-item header__menu-item_shugaring-waxing"><a href="#">Шугаринг и депиляция воском</a></li>
+          <li class="header__menu-item header__menu-item_anticellulite-massage"><a href="#">Антицеллюлитный массаж</a></li>
+          <li class="header__menu-item header__menu-item_classic-massage"><a href="#">Классический массаж</a></li>
+          <li class="header__menu-item header__menu-item_training"><a href="#">Обучение</a></li>
+          <li class="header__menu-item header__menu-item_cosmetics"><a href="#">Косметика для мастеров</a></li>
+          <li class="header__menu-item header__menu-item_articles"><a href="#">Статьи</a></li>
+          <li class="header__menu-item header__menu-item_about-studio"><a href="#">О студии</a></li>
+          <li class="header__menu-item header__menu-item_contacts"><a href="#">Контакты</a></li>
+        </ul>
+
         <div class="header__information">
-          <img class="header__backgrounds_heart header__backgrounds_left-heart" src="./images/header-left-heart.png" alt="">
+          <div class="header__information-content">
+            <h1 class="header__information-content_title">
+              Хотите избавиться от 
+              <span class="header__information-content_title-span">нежелательных волос</span><br>
+              или нужен сеанс <span class="header__information-content_title-span">антицеллюлитного массажа?</span>
+            </h1>
+
+            <ul class="header__information-services">
+              <li class="header__information-services-item">
+                <div class="header__information-services-item_mark">
+                  <div class="header__information-services-item_mark-inside"></div>
+                </div>
+                депиляция воском и Шугаринг;
+              </li>
+              <li class="header__information-services-item">
+                <div class="header__information-services-item_mark">
+                  <div class="header__information-services-item_mark-inside"></div>
+                </div>
+                профессиональные сертифицированные мастера;
+              </li>
+              <li class="header__information-services-item">
+                <div class="header__information-services-item_mark">
+                  <div class="header__information-services-item_mark-inside"></div>
+                </div>
+                работаем и с женщинами, и с мужчинами;
+              </li>
+              <li class="header__information-services-item">
+                <div class="header__information-services-item_mark">
+                  <div class="header__information-services-item_mark-inside"></div>
+                </div>
+                результат уже после первой процедуры.
+              </li>
+            </ul>
+
+            <div class="header__information_button-container">
+              <button class="header__information_button" type="button">
+                <div class="header__information_button-text">
+                  ПОЛУЧИТЬ КАРТУ<br>КЛИЕНТА БЕСПЛАТНО
+                </div>
+                
+              </button>
+              <div class="header__information_button-image-container">
+                <img class="header__information_button-image" src="./images/header-information-button-plant.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__additional">
+          <div class="header__additional_image-holder">
+            <img class="header__additional_image-shadow" src="./images/header-card-shadow.png" alt="">
+            <img class="header__additional_image" src="./images/header-card.png" alt="">
+          </div>
+          
+          <div class="header__additional_information">
+            <div class="header__additional_information-switch">i</div>
+            <img class="header__additional_information-heart" src="./images/header-center-heart.png" alt="">
+            <div class="header__additional_information-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</div>
+          </div>
+        </div>
+
+        <div class="header__arrow-container">
+          <div class="header__arrow">
+            <div class="header__arrow_box">
+              <div class="header__arrow_block"></div>
+            </div>
+            <div class="header__arrow_line"></div>
+            <div class="header__arrow_bottom-circle"></div>
+          </div>
+
+          <div class="header__arrow-circle header__arrow-circle-1"></div>
+          <div class="header__arrow-circle header__arrow-circle-2"></div>
+          <div class="header__arrow-circle header__arrow-circle-3"></div>
         </div>
 
         <div class="header__backgrounds">
@@ -20,6 +158,7 @@
           <img class="header__backgrounds_wave" src="./images/header-wave.png" alt="">
           <img class="header__backgrounds_girl" src="./images/header-girl.png" alt="">
         
+          <img class="header__backgrounds_heart header__backgrounds_left-heart" src="./images/header-left-heart.png" alt="">
           <img class="header__backgrounds_heart header__backgrounds_right-heart" src="./images/header-right-heart.png" alt="">
         </div>
       </header>
