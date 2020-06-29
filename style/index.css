@@ -51,6 +51,10 @@ body {
   color: #1f1d1d;
 }
 
+.container {
+  overflow: hidden;
+}
+
 .gr-col-14 {
   display: grid;
   grid-template-columns: 60px 15px 100px 15px 15px 100px 15px 15px 100px 15px 15px 100px 15px 15px 100px 15px 15px 100px 15px 15px 100px 15px 15px 100px 15px 15px 100px 15px 15px 100px 15px 15px 100px 15px 15px 100px 15px 60px;

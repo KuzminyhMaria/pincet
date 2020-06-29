@@ -1,7 +1,7 @@
 .header__backgrounds {
   position: absolute;
   height: 1127px;
-  width: calc(100vw - 17px);
+  width: 100vw;
   transform: translate(-50%, -50%);
   top: 563px;
   left: 50%;
