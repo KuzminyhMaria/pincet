@@ -157,26 +157,19 @@
   font-family: 'MuseoSansCyrl-3';
 }
 
-.header__about-us_button-container {
-  position: relative;
-}
-
 .header__about-us_button {
   height: 63px;
   width: 230px;
   border-radius: 30px;
   background: #fefcfb;
   border-bottom: 3px solid #eeecec;
-  box-sizing: border-box;
-  cursor: pointer;
-  font-family: 'MuseoSansCyrl-2';
+  padding-left: 30px;
+  font-family: 'MuseoSansCyrl-3';
   font-size: 15px;
-  letter-spacing: .8px;
-  padding-left: 33px;
+  letter-spacing: .6px;
 }
 
 .header__about-us_button-icon {
-  position: absolute;
   top: 32%;
   left: 27px;
 }

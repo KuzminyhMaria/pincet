@@ -1,4 +1,5 @@
 @import "./header/header.css";
+@import "./pop-up-windows/pop-up-windows.css";
 
 @font-face {
   font-family: 'Appetite New';
@@ -43,6 +44,44 @@ a:hover,
 a:active {
   text-decoration: none;
   color: inherit;
+}
+
+.button {
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.button-icon,
+.button-image {
+  position: absolute;
+}
+
+.close-button {
+  align-self: flex-end;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: transparent;
+}
+
+.close-button__line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 16px;
+  border-radius: 3px;
+  background: #c3c5c7;
+  backface-visibility: hidden;
+}
+
+.close-button__line:first-of-type {
+  transform: translate(-50%, -50%) translateZ(0) rotate(45deg);
+}
+
+.close-button__line:last-of-type {
+  transform: translate(-50%, -50%) translateZ(0) rotate(-45deg);
 }
 
 body {

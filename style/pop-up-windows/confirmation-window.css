@@ -1,0 +1,10 @@
+.confirmation-window {
+  /* visibility: visible; */
+  height: 337px;
+  width: 522px;
+  background-image: linear-gradient(to bottom left, #fdf3ef 0%, #fdf3ee 11%, #fcf3f0 21%,#fbf3f0 31%, #f6f1ed 41%, 
+                                                    #f7f5f4 51%, #f8f6f5 61%, #f7f5f5 71%, #fafcfc 81%, #fcfcfd 91%, #fcfdfd 100%);
+  border: 1px solid #faf3f4;
+  padding: 45px 38px 80px;
+  z-index: 5;
+}

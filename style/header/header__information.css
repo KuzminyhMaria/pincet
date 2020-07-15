@@ -41,7 +41,6 @@
   border-radius: 50%;
   background: #f7f7fb;
   box-shadow: 0 0 10px -1px #ef9499;
-  
 }
 
 .header__information-services-item_mark-inside {
@@ -55,12 +54,8 @@
   transform: translate(-50%, -50%);
 }
 
-.header__information_button-container {
-  position: relative;
-  margin-top: 52px;
-}
-
 .header__information_button {
+  margin-top: 52px;
   height: 90px;
   width: 375px;
   border-radius: 40px;
@@ -68,7 +63,6 @@
   box-shadow: inset 0 -5px 0 0 #ef8b92;
   background: #f7abad;
   background-image: linear-gradient(to bottom left, #f8b1b2 0%, #f5a6aa 31%, #f39a9e 51%,#f29a9e 100%);
-  cursor: pointer;
 }
 
 .header__information_button-text {
@@ -81,20 +75,15 @@
   letter-spacing: 1.8px;
 }
 
-.header__information_button-image-container {
-  position: absolute;
-  left: 240px;
-  bottom: 14px;
-  height: 50px;
-  width: 220px;
-  background: linear-gradient(0deg, rgba(88, 85, 84, .7), rgba(88, 85, 84, 0) 6%), rgba(88, 85, 84, 0) 6%;
+.header__information_button-image {
+  left: 232px;
+  bottom: 9px;
   border-radius: 3%;
   z-index: 2;
 }
 
-.header__information_button-image {
-  position: absolute;
-  bottom: 0;
-  left: -7px;
+.header__information_button-image-sh {
+  left: 232px;
+  bottom: 5px;
   z-index: 1;
 }
